@@ -1,0 +1,37 @@
+.container{
+    text-align: center;
+    font-size: 18px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-item span{
+    margin-left: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.todo-input{
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.add-btn{
+    margin-left: 20px;
+    padding: 20px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    outline: none;
+    width: 100px;
+}
